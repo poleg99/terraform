@@ -1,5 +1,5 @@
 #------------Servers----------------
-output "web_dns_name" {
+output "web_lb_url" {
   value = module.epam_task_servers.web_dns_name
 }
 
