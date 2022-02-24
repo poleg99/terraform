@@ -15,7 +15,8 @@ variable "tags" {
 }
 #---------Network---------------
 variable "vpc_cidr" {
-  default = "10.20.0.0/16"
+  default     = "10.20.0.0/16"
+  description = "vpc subnet id"
 }
 
 variable "public_subnet_cidrs" {
@@ -23,6 +24,7 @@ variable "public_subnet_cidrs" {
     "10.20.10.0/24",
     "10.20.20.0/24",
   ]
+  description = "public subnets cidr"
 }
 
 variable "private_subnet_cidrs" {
@@ -30,4 +32,5 @@ variable "private_subnet_cidrs" {
     "10.20.31.0/24",
     "10.20.32.0/24"
   ]
+  description = "private subnets cidr"
 }

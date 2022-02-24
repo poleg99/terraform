@@ -1,10 +1,12 @@
 #----------General--------------
 variable "zone_name" {
-  default = "eu-west-2"
+  default     = "eu-west-2"
+  description = "set zone for infrastructure creation"
 }
 
 variable "env" {
-  default = "dev"
+  default     = "dev"
+  description = "set stages"
 }
 
 variable "tags" {
@@ -12,4 +14,5 @@ variable "tags" {
     Owner   = "Oleg Pavlov"
     Project = "EPAM DEVOPS SCHOOL AWS TASK"
   }
+  description = "common tags"
 }

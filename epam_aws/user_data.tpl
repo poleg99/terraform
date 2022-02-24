@@ -75,7 +75,7 @@ sed -i '/<Directory "\/var\/www\/html">/,/<\/Directory>/ s/AllowOverride None/Al
 
 MYIP=`curl http://169.254.169.254/latest/meta-data/local-ipv4`
 echo "<h2>WordPress Installed !!!<br>WebServer with IP - $MYIP</h2><br>External file script.<br>Powered by Terraform from Chertanovo :) <br>Version 3.4</h2>" > /var/www/html/ip.html
-#------apache  autostart and restart
+#------apache  autostart and restart apache and php finally
 systemctl restart php-fpm.service
 systemctl enable  httpd.service
 systemctl restart httpd.service
