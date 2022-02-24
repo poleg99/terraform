@@ -41,29 +41,3 @@ No resources.
 | <a name="output_vpc_cidr"></a> [vpc\_cidr](#output\_vpc\_cidr) | created VPC CIDR block |
 | <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | created VPC\_ID |
 | <a name="output_web_lb_url"></a> [web\_lb\_url](#output\_web\_lb\_url) | URL for connection |
-
-<!-- BEGIN_TF_DOCS -->
-## Requirements
-
-No requirements.
-
-## Providers
-
-No providers.
-
-## Modules
-
-No modules.
-
-## Resources
-
-No resources.
-
-## Inputs
-
-No inputs.
-
-## Outputs
-
-No outputs.
-<!-- END_TF_DOCS -->
