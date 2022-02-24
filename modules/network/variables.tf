@@ -1,4 +1,3 @@
-#----------General--------------
 variable "zone_name" {
   default = "us-west-2"
 }
@@ -13,7 +12,7 @@ variable "tags" {
     Project = "EPAM DEVOPS SCHOOL AWS TASK"
   }
 }
-#---------Network---------------
+
 variable "vpc_cidr" {
   default     = "10.20.0.0/16"
   description = "vpc subnet id"
