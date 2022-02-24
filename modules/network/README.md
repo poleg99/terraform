@@ -35,7 +35,7 @@ No modules.
 | <a name="input_public_subnet_cidrs"></a> [public\_subnet\_cidrs](#input\_public\_subnet\_cidrs) | public subnets cidr | `list` | <pre>[<br>  "10.20.10.0/24",<br>  "10.20.20.0/24"<br>]</pre> | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | n/a | `map` | <pre>{<br>  "Owner": "Oleg Pavlov",<br>  "Project": "EPAM DEVOPS SCHOOL AWS TASK"<br>}</pre> | no |
 | <a name="input_vpc_cidr"></a> [vpc\_cidr](#input\_vpc\_cidr) | vpc subnet id | `string` | `"10.20.0.0/16"` | no |
-| <a name="input_zone_name"></a> [zone\_name](#input\_zone\_name) | ----------General-------------- | `string` | `"us-west-2"` | no |
+| <a name="input_zone_name"></a> [zone\_name](#input\_zone\_name) | n/a | `string` | `"us-west-2"` | no |
 
 ## Outputs
 
