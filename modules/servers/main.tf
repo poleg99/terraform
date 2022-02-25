@@ -116,7 +116,7 @@ resource "aws_security_group" "web_sg" {
   vpc_id      = var.vpc_id_data
 
   dynamic "ingress" {
-    for_each = ["80", "443", "3306", "2049", "22"]
+    for_each = ["80", "443", "3306", "2049"]
     content {
       description = "bunch of TCP ports for webservers"
       from_port   = ingress.value

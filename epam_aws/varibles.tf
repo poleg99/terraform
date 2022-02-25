@@ -1,6 +1,6 @@
 #----------General--------------
 variable "zone_name" {
-  default     = "eu-west-2"
+  default     = "us-west-2"
   description = "set zone for infrastructure creation"
 }
 
@@ -15,4 +15,14 @@ variable "tags" {
     Project = "EPAM DEVOPS SCHOOL AWS TASK"
   }
   description = "common tags"
+}
+
+variable "tf_s3_bucket_store" {
+  default     = "terraform-state-op"
+  description = "set bucket to store tf state"
+}
+
+variable "tf_s3_bucket_key" {
+  default     = "epam/aws_task/terraform.tfstate"
+  description = "key for bucket where to store tf state"
 }
